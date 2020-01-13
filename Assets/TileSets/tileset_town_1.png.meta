@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: 39677939e59800d46b8e954598872303
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4947995378767415835
+    second: tileset_town_1_0
+  - first:
+      213: 1659928217136669289
+    second: tileset_town_1_1
+  - first:
+      213: -1467897332222603624
+    second: tileset_town_1_2
+  - first:
+      213: -5864381942251252099
+    second: tileset_town_1_3
+  - first:
+      213: 6501262878940013742
+    second: tileset_town_1_4
+  - first:
+      213: -3965276020677205377
+    second: tileset_town_1_5
+  - first:
+      213: -4528719829071024186
+    second: tileset_town_1_6
+  - first:
+      213: -2741281276854965838
+    second: tileset_town_1_7
+  - first:
+      213: -7822800352907082418
+    second: tileset_town_1_8
+  - first:
+      213: -3288071823448652896
+    second: tileset_town_1_9
+  - first:
+      213: -4744018688137053113
+    second: tileset_town_1_10
+  - first:
+      213: -6340629579125908816
+    second: tileset_town_1_11
+  - first:
+      213: -6258258733049022129
+    second: tileset_town_1_12
+  - first:
+      213: -3077034368889822716
+    second: tileset_town_1_13
+  - first:
+      213: 8750773081845758115
+    second: tileset_town_1_14
+  - first:
+      213: -396065774333357028
+    second: tileset_town_1_15
+  - first:
+      213: 3732943864533824655
+    second: tileset_town_1_16
+  - first:
+      213: 8492083529467496382
+    second: tileset_town_1_17
+  - first:
+      213: -989043109779921734
+    second: tileset_town_1_18
+  - first:
+      213: 1694890838518000046
+    second: tileset_town_1_19
+  - first:
+      213: -2429696540754884130
+    second: tileset_town_1_20
+  - first:
+      213: -8256095447237164525
+    second: tileset_town_1_21
+  - first:
+      213: 4576267264066648171
+    second: tileset_town_1_22
+  - first:
+      213: 3244294290001535668
+    second: tileset_town_1_23
+  - first:
+      213: 1251751831935598292
+    second: tileset_town_1_24
+  - first:
+      213: 6417257462635545696
+    second: tileset_town_1_25
+  - first:
+      213: 1453186575499532934
+    second: tileset_town_1_26
+  - first:
+      213: 1694418487131100748
+    second: tileset_town_1_27
+  - first:
+      213: -7569695771770531466
+    second: tileset_town_1_28
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileset_town_1_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2181
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a9843be1ee40a498e1d19cd89deeab
+      internalID: 4947995378767415835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 2181
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d710b83e95acd49b546c9132bf211b
+      internalID: 1659928217136669289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2181
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97095884cb4545a4eadc2d4c96dd98ac
+      internalID: -1467897332222603624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 2199
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564a18aea7e3fcf44ae12740ad07415c
+      internalID: -5864381942251252099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2199
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af796218e790104fb28f01c93003081
+      internalID: 6501262878940013742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 2163
+        width: 42
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1458aeaa85075b47a973054fd7d2872
+      internalID: -3965276020677205377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2086
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf4b0bc58c014a4c9e35603b86f77d3
+      internalID: -4528719829071024186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_7
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2127
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5054bb4e1fba46b48b72f2197710a70e
+      internalID: -2741281276854965838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2071
+        width: 79
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648894cdb07dfe24891a283335a80dbb
+      internalID: -7822800352907082418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 927
+        width: 256
+        height: 1187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060e22f9e33262b41845f69ede336898
+      internalID: -3288071823448652896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_10
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 706
+        width: 68
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9113e7480d1216b4090446203e6b60b5
+      internalID: -4744018688137053113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 803
+        width: 92
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88a59e113276c64081419c218c3f364
+      internalID: -6340629579125908816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 834
+        width: 8
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3325c731e954784b94df3c34cbed105
+      internalID: -6258258733049022129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_13
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 767
+        width: 55
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524c4b58ffb1a0a4cbec1c117c6ea7e4
+      internalID: -3077034368889822716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 895
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca75e49e777a4174da9c862d33550a6c
+      internalID: 8750773081845758115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 802
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3f7a40daba7640a009469d01f2d60
+      internalID: -396065774333357028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 802
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878d9f4a34836224eb2f8978a5f5caa6
+      internalID: 3732943864533824655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_17
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 703
+        width: 40
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8aedc4c20c1554f960706de37e1f3b
+      internalID: 8492083529467496382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 256
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb133a8b6c34c0409b1833e05cde033
+      internalID: -989043109779921734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 543
+        width: 256
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8bba81705da8d4193af743f1c87a07
+      internalID: 1694890838518000046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8bebc94d3d0cd4ab9d8d7a816b5f60
+      internalID: -2429696540754884130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2ab7106c6a51c47b557d93a8e1bbe4
+      internalID: -8256095447237164525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_22
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 7
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36593ab23964bae4387263dc7abebf21
+      internalID: 4576267264066648171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 7
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b23dc2df1d6bd4ba30c380340864a5
+      internalID: 3244294290001535668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_24
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 8
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0497d846edbb8804f8de548589f2f9c8
+      internalID: 1251751831935598292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60997aa987a2b7e4c99327f62e50e354
+      internalID: 6417257462635545696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17badd30e9ecaf4faa7c42548602fb4
+      internalID: 1453186575499532934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c412c7fcfc6e648a822d82ba91a0be
+      internalID: 1694418487131100748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileset_town_1_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 2127
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaddb8966f43a448884e07aca754ac3
+      internalID: -7569695771770531466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
