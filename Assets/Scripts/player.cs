@@ -27,7 +27,7 @@ public class player : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Puchurrae a la E para adoptarme");
+        Debug.Log("Puchurrale a la E para adoptarme");
     }
     private void OnTriggerStay2D(Collider2D collision)
     {

@@ -61,4 +61,20 @@ public class Animal : MonoBehaviour
         changeEstado(estadoAnimal.feliz);
         transform.position = _posicion;
     }
+    public void asignarCasa()
+    {
+        petHouse = true;
+    }
+    public void desAsignarCasa()
+    {
+        petHouse = false;
+    }
+    public void alimentar(float _cantidad)
+    {
+        hambre += _cantidad;
+        if (hambre >= maxHambre)
+        {
+            hambre = maxHambre;
+        }
+    }
 }
