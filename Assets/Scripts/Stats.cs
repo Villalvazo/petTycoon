@@ -5,22 +5,25 @@ using UnityEngine;
 
 public class Stats : MonoBehaviour
 {
+    public GameObject[] slotsCasas;
     private Dictionary<string, float> comida;
+    private float dinero;
+    private List<casa> listaCasas;
+    public Menu menu;
     class casa
     {
-        private Vector3 posicion;
+        private int slot;
         private bool ocupado;
-        private bool construido;
         private Animal animalito;
         private Stats stats;
-        public casa(Vector3 _posicion, Stats _stats)
+        public casa(int _slot, Stats _stats)
         {
-            posicion = _posicion;
+            slot = _slot;
             stats = _stats;
         }
-        public Vector3 getPosicion()
+        public int getSlot()
         {
-            return posicion;
+            return slot;
         }
         public bool getOcupado()
         {
@@ -36,14 +39,9 @@ public class Stats : MonoBehaviour
         {
             ocupado = false;
         }
-        public void construirCasa()
+        public void alimentar(float _cantidad)
         {
-            construido = true;
-        }
-        public void alimentar()
-        {
-            animalito.alimentar(20);
-            stats.restarComida(animalito.tag, 20);
+            animalito.alimentar(_cantidad);
         }
     }
     private void Start()
@@ -51,6 +49,8 @@ public class Stats : MonoBehaviour
         comida = new Dictionary<string, float>();
         comida.Add("Gato", 0);
         comida.Add("Perro", 0);
+        dinero = 0.0f;
+        listaCasas = new List<casa>();
     }
 
     public void agregarTipoDeComida(string _tipo, float _cantidad)
@@ -80,4 +80,41 @@ public class Stats : MonoBehaviour
         }
     }
 
+    public void comprarCasa(float _precio)
+    {
+        if (listaCasas.Count < slotsCasas.Length)
+        {
+            tryToBuy(_precio);
+            listaCasas.Add(new casa(listaCasas.Count,this));
+        }
+    }
+    public void comprarComida(string _tipo, int _cantidad, float _precio)
+    {
+        tryToBuy(_precio);
+        agregarComida(_tipo, _cantidad);
+    }
+    public bool canBuy(float _precio)
+    {
+        if (dinero >= _precio)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+    public void tryToBuy(float _precio)
+    {
+        if (dinero >= _precio)
+        {
+            dinero -= _precio;
+            menu.setDinero(dinero);
+        }
+    }
+    public void obtenerDinero(float _cantidad)
+    {
+        dinero += _cantidad;
+        menu.setDinero(dinero);
+    }
 }
