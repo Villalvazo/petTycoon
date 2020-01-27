@@ -10,6 +10,7 @@ public class Stats : MonoBehaviour
     private float dinero;
     private List<casa> listaCasas;
     public Menu menu;
+    private DateTime fecha;
     class casa
     {
         private int slot;
@@ -51,6 +52,7 @@ public class Stats : MonoBehaviour
         comida.Add("Perro", 0);
         dinero = 0.0f;
         listaCasas = new List<casa>();
+        fecha = DateTime.Now;
     }
 
     public void agregarTipoDeComida(string _tipo, float _cantidad)
@@ -111,6 +113,13 @@ public class Stats : MonoBehaviour
             dinero -= _precio;
             menu.setDinero(dinero);
         }
+    }
+    public void pasarDia()
+    {
+        Debug.Log("Fecha antes: " + fecha);
+        fecha=fecha.AddDays(1);
+        Debug.Log("Fecha despues: " + fecha);
+        menu.cambiarFecha(fecha.Day+"/"+fecha.Month+"/"+fecha.Year);
     }
     public void obtenerDinero(float _cantidad)
     {

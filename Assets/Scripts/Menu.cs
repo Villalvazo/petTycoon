@@ -7,6 +7,8 @@ public class Menu : MonoBehaviour
     public Button[] botones;
     public Text textoDinero;
     public Stats gameManager;
+    public GameObject menuCompras;
+    public Text fecha;
 
     private void Start()
     {
@@ -29,5 +31,9 @@ public class Menu : MonoBehaviour
     public void setDinero(float _cantidad)
     {
         textoDinero.text = _cantidad.ToString();
+    }
+    public void cambiarFecha(string _string)
+    {
+        fecha.text = _string;
     }
 }
