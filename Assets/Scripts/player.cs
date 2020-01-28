@@ -9,32 +9,73 @@ public class player : MonoBehaviour
 
     private Vector2 movActual;
     public Vector2 posicionAdoptado;
+    private bool ocupado;
+    private Stats stats;
     // Start is called before the first frame update
     void Start()
     {
-        posicionAdoptado = new Vector2(-4.7f, 0.8f);
+        posicionAdoptado = new Vector2(-4.5f, 0.8f);
+        ocupado = false;
+        stats = GameObject.Find("GameManager").GetComponent<Stats>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        movActual.x = Input.GetAxis("Horizontal");
-        movActual.y = Input.GetAxis("Vertical");
+        if (!ocupado)
+        {
+            movActual.x = Input.GetAxis("Horizontal");
+            movActual.y = Input.GetAxis("Vertical");
+        }
     }
     private void FixedUpdate()
     {
-        rigi.MovePosition(rigi.position + (movActual * movementSpeed * Time.fixedDeltaTime));
+        if (!ocupado)
+        {
+            rigi.MovePosition(rigi.position + (movActual * movementSpeed * Time.fixedDeltaTime));
+        }
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Puchurrale a la E para adoptarme");
+        if (collision.transform.root.GetComponent<Animal>() && !collision.transform.root.GetComponent<Animal>().isOwned())
+        {
+            FindObjectOfType<audioManager>().Play("CatMeow");
+        }
+    }
+    private IEnumerator jugar(GameObject animal)
+    {
+        ocupado = true;
+        animal.GetComponent<Animal>().recibirFelicidadTiempo(1.5f);
+        yield return new WaitForSeconds(1.5f);        
+        ocupado = false;
+    }
+    private IEnumerator alimentar(GameObject animal)
+    {
+        ocupado = true;
+        animal.GetComponent<Animal>().alimentarTiempo(1.5f);
+        yield return new WaitForSeconds(1.5f);
+        ocupado = false;
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.E) && collision.transform.root.GetComponent<Animal>() && !collision.transform.root.GetComponent<Animal>().isOwned())
+        if (collision.transform.root.GetComponent<Animal>())
         {
-            Debug.Log("Adoptando");
-            collision.transform.root.GetComponent<Animal>().setAdoptado(posicionAdoptado);
+            if (Input.GetKeyDown(KeyCode.E) && !collision.transform.root.GetComponent<Animal>().isOwned() && stats.checkifAvailableCasa())
+            {
+                Debug.Log("Adoptando");
+                collision.transform.root.GetComponent<Animal>().setAdoptado(stats.adoptarMascota(collision.transform.root.gameObject));
+            }
+            if (Input.GetKeyDown(KeyCode.F) && collision.transform.root.GetComponent<Animal>().isOwned() && !ocupado && stats.checkifEnoughComida("Gato",300))
+            {
+                Debug.Log("F");
+                stats.restarComida("Gato", 300);
+                StartCoroutine(alimentar(collision.transform.root.gameObject));
+            }
+            if (Input.GetKeyDown(KeyCode.P) && collision.transform.root.GetComponent<Animal>().isOwned() && !ocupado)
+            {
+                Debug.Log("P");
+                StartCoroutine(jugar(collision.transform.root.gameObject));
+            }
         }
     }
 }

@@ -6,16 +6,18 @@ public class Puerta : MonoBehaviour
 {
     public GameObject tileActivable;
     private bool activo;
-    public bool trabajo;
+    public bool trabajo,tienda;
     public Vector3 vectorDesplazamientoPuerta;
+    public Menu menu;
     private void Start()
     {
         activo = true;
+        menu = GameObject.Find("Canvas").GetComponent<Menu>();
     }
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {        
-        if (trabajo && collision.GetComponent<player>())
+        if (trabajo)
         {
             GameObject.Find("GameManager").GetComponent<Stats>().obtenerDinero(100);
             GameObject.Find("GameManager").GetComponent<Stats>().pasarDia();
@@ -23,6 +25,10 @@ public class Puerta : MonoBehaviour
         }
         else
         {
+            if (tienda)
+            {
+                menu.setTienda(activo);
+            }
             activo = !activo;
             tileActivable.SetActive(activo);
         }
